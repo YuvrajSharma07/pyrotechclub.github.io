@@ -1,2 +1,2 @@
-# pyrotechclub.github.io
+# https://pyrotechclub.github.io
 Pyrotech Club Website
