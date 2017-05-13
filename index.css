@@ -95,7 +95,7 @@ a {
 	padding: 30px;
 	font-weight: 900;
 	color: #fff;
-	background-color: #d43a36;
+	background-color: #152f5f;
 	animation: 1s fromabove ease-out;
 	-webkit-animation: 1s fromabove ease-out
 }
@@ -122,7 +122,7 @@ a {
 	padding: 34px;
 	font-family: 'Product Sans', 'Futura', sans-serif, Verdana;
 	font-size: 40px;
-	color: #d43a36;
+	color: #24488c;
 	text-align: center;
 	font-weight: 200;
 	animation: 1.4s zoom ease-out;
@@ -136,18 +136,6 @@ a {
 	font-size: 28px;
 	padding: 30px;
 	color: #fff;
-}
-.links {
-	color: #d9534f;
-}
-.links:hover {
-	color: #c9302c;
-}
-.links:active {
-	color: #ac2925;
-}
-.links:focus {
-	color: #ac2925;
 }
 .scrhead {
 	opacity: 0.6;
@@ -167,7 +155,7 @@ a {
 	text-align: left !important;
 	height: 400px !important;
     width: 260px !important;
-    background-color: #d9534f;
+    background-color: #006699;
     margin: 0px;
     margin-right: 30px;
     margin-bottom: 30px;
