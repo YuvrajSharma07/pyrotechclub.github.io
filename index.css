@@ -118,7 +118,7 @@ a {
 	font-size: 24px;
 	padding-top: 0px
 }
-.coret {
+.coret, .mcoret {
 	padding: 34px;
 	font-family: 'Product Sans', 'Futura', sans-serif, Verdana;
 	font-size: 40px;
@@ -233,6 +233,14 @@ a {
 }
 #fcards {
 	display: none
+}
+.mcoret {
+	font-size: 32px;
+	color: #fff;
+	padding: 28px
+}
+.close {
+	font-size: 30px !important
 }
 
 @keyframes zoom{0%{opacity: 0;transform: scale(0)}50%{opacity: 1;transform: scale(1.3)}100%{transform: scale(1)}}
