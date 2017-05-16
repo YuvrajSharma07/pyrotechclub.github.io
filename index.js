@@ -16,3 +16,17 @@ if ($(this).scrollTop() > 100){
     $('#mainheader').removeClass("scrhead");
   }
 });
+function divtoggle(){
+	var personal = document.getElementById('pcards');
+	var forte = document.getElementById('fcards');
+	var button = document.getElementById('togglebtn');
+	if (personal.style.display === "none"){
+		personal.style.display = "block";
+		forte.style.display = "none";
+		button.innerHTML = "View Forte based data";
+	} else {
+		personal.style.display = "none";
+		forte.style.display = "block";
+		button.innerHTML = "View Personnel based data";
+	}
+}
