@@ -11,7 +11,12 @@ input, button, textarea, form {
     color: #000
 }
 a {
-    text-decoration: none
+	text-decoration: underline !important;
+	text-decoration-style: dotted !important;
+	text-decoration-color: #337ab7
+}
+a:hover {
+	text-decoration-style: solid !important
 }
 .bodybg {
 	background-color: #000
@@ -88,11 +93,11 @@ a {
 }
 .mainheader {
 	font-family: 'PT Sans', 'Futura', sans-serif, verdana;
-	font-size: 36px;
+	font-size: 30px;
 	position: fixed;
 	z-index: 10;
 	width: 100%;
-	padding: 30px;
+	padding: 25px;
 	font-weight: 900;
 	color: #fff;
 	background-color: #2b3f54;
@@ -108,20 +113,20 @@ a {
 }
 .designation, .name {
 	font-family: 'Montserrat', sans-serif, Verdana;
-	font-size: 28px;
+	font-size: 24px;
 	padding: 40px;
 	animation: 1.4s fromright ease-out;
 	-webkit-animation: 1.4s fromright ease-out;
 	position: relative
 }
 .name {
-	font-size: 24px;
+	font-size: 20px;
 	padding-top: 0px
 }
 .coret, .mcoret {
 	padding: 34px;
 	font-family: 'Product Sans', 'Futura', sans-serif, Verdana;
-	font-size: 40px;
+	font-size: 30px;
 	color: #546a7b;
 	text-align: center;
 	font-weight: 200;
@@ -133,7 +138,7 @@ a {
 	width: 100%;
 	background-color: #344b5d;
 	font-family: 'Quicksand', 'Geneva', sans-serif, Verdana;
-	font-size: 28px;
+	font-size: 18px;
 	padding: 30px;
 	color: #fff;
 }
@@ -177,8 +182,8 @@ a {
 	background-color: rgba(101, 141, 173, 0.41)
 }
 .logo {
-	height: 66.75px;
-	width: 66.75px;
+	height: 56.3203125px;
+	width: 56.3203125px;
 	cursor: pointer
 }
 .describe {
@@ -235,7 +240,7 @@ a {
 	display: none
 }
 .mcoret {
-	font-size: 32px;
+	font-size: 28px;
 	color: #fff;
 	padding: 28px
 }
