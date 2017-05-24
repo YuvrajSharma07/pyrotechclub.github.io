@@ -1,3 +1,4 @@
+/* html {font-size: 10px} from scaffolding.less */
 body {
     margin: 0;
 	text-align: center;
@@ -5,7 +6,7 @@ body {
 input, button, textarea, form {
     outline: none;
     padding: 10px;
-    font-size: 16px;
+    font-size: 1.6rem;
     border: 1px solid #000;
     background-color: #fff;
     color: #000
@@ -35,7 +36,7 @@ a:hover {
 }
 .introhead {
 	font-family: 'PT Sans', 'Futura', sans-serif, Verdana;
-	font-size: 60px;
+	font-size: 6rem;
 	color: #fff;
 	padding: 20px;
 	animation: 2s zoom ease-out;
@@ -44,7 +45,7 @@ a:hover {
 .subs {
 	font-family: 'Quicksand', Geneva, sans-serif, verdana;
 	color: #616967;
-	font-size: 26px;
+	font-size: 2.6rem;
 	white-space: nowrap;
 	overflow: hidden;
 	width: 100%;
@@ -61,7 +62,7 @@ a:hover {
 	-webkit-animation: 2s expand ease-out;
 }
 .heading {
-	font-size: 30px;
+	font-size: 3rem;
 	font-family: 'Product Sans', 'Geneva', sans-serif, Verdana;
 	padding: 24px;
 	background-color: #333;
@@ -93,7 +94,7 @@ a:hover {
 }
 .mainheader {
 	font-family: 'PT Sans', 'Futura', sans-serif, verdana;
-	font-size: 30px;
+	font-size: 3rem;
 	position: fixed;
 	z-index: 10;
 	width: 100%;
@@ -113,20 +114,20 @@ a:hover {
 }
 .designation, .name {
 	font-family: 'Montserrat', sans-serif, Verdana;
-	font-size: 24px;
+	font-size: 2.4rem;
 	padding: 40px;
 	animation: 1.4s fromright ease-out;
 	-webkit-animation: 1.4s fromright ease-out;
 	position: relative
 }
 .name {
-	font-size: 20px;
+	font-size: 2rem;
 	padding-top: 0px
 }
 .coret, .mcoret {
 	padding: 34px;
 	font-family: 'Product Sans', 'Futura', sans-serif, Verdana;
-	font-size: 30px;
+	font-size: 3rem;
 	color: #546a7b;
 	text-align: center;
 	font-weight: 200;
@@ -138,7 +139,7 @@ a:hover {
 	width: 100%;
 	background-color: #344b5d;
 	font-family: 'Quicksand', 'Geneva', sans-serif, Verdana;
-	font-size: 18px;
+	font-size: 1.8rem;
 	padding: 30px;
 	color: #fff;
 }
@@ -174,7 +175,7 @@ a:hover {
 	padding: 10px
 }
 .card-content {
-	font-size: 20px
+	font-size: 2rem
 }
 .contact {
 	padding: 20px;
@@ -187,7 +188,7 @@ a:hover {
 	cursor: pointer
 }
 .describe {
-	font-size: 30px;
+	font-size: 3rem;
 	font-family: 'PT Sans', geneva, verdana;
 	color: #fff;
 	padding: 20px;
@@ -231,7 +232,7 @@ a:hover {
 	padding: 10px;
 }
 .fcard-head {
-	font-size: 100px
+	font-size: 10rem
 }
 .togglebar {
 	padding: 20px
@@ -240,12 +241,12 @@ a:hover {
 	display: none
 }
 .mcoret {
-	font-size: 28px;
+	font-size: 2.8rem;
 	color: #fff;
 	padding: 28px
 }
 .close {
-	font-size: 40px !important;
+	font-size: 4rem !important;
 	padding-top: 20px !important;
 	padding-right: 20px !important
 }
@@ -264,7 +265,7 @@ a:hover {
 @-webkit-keyframes fromabove{from{opacity: 0;margin-top: -300px}to{opacity: 1;margin-top: 0px}}
 @keyframes frombottom{from{opacity: 0;margin-bottom: -300px}to{opacity: 1;margin-bottom: 0px}}
 @-webkit-keyframes frombottom{from{opacity: 0;margin-bottom: -300px}to{opacity: 1;margin-bottom: 0px}}
-@keyframes expand{from{width: 0%}to{width: 20}}
+@keyframes expand{from{width: 0%}to{width: 20%}}
 @-webkit-keyframes expand{from{width: 0%}to{width: 20%}}
 @keyframes goleft{from{opacity: 1;margin-left: 0px}to{opacity: 0;margin-left: -300px}}
 @-webkit-keyframes goleft{from{opacity: 1;margin-left: 0px}to{opacity: 0;margin-left: -300px}}
